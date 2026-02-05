@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: pink;
+    border-radius: 20px;
+}
